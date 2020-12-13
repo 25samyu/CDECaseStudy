@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>edit-menu-item</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="js/script.js"></script>
+</head>
+    
+<body onload="editOnLoad()">
+    
+    <header>
+        <h1>truYum</h1>
+        <nav>
+            <a href="menu-item-list-admin.html">Menu</a>
+        </nav>
+    </header>
+    
+    <h1 class="page-title">Edit Menu Item</h1>
+
+    <form id="edit-menu-form" onsubmit="addItemAdmin();" action="edit-menu-item-status.html">
+        <label class="edit-menu-label">Name</label><br>
+        <input type="text" name="title" minlength="2" maxlength="65" required>
+        <br><br><br><br>
+
+        <label name="edit-menu-label">Price(Rs.)</label>
+        <label name="inStock-label">Active</label>
+        <label name="dateOfLaunch-label">Date of Launch</label>
+        <label name="category-label">Category</label><br>
+
+        
+        <input class="second-row" type="text" name="price" pattern="[0-9].{1,}" required>
+        
+        <input type="radio" name="inStock" id="activeYes" value="Yes"><span>Yes</span>
+        <input  type="radio" name="inStock" id="activeNo" value="No"><span class="second-row">No</span>
+
+        <input class="second-row" type="text" name="dateOfLaunch" required>
+        
+        <select name="category">
+            <option>Starters</option>
+            <option>Main Course</option>
+            <option>Dessert</option>
+            <option>Drinks</option>
+        </select>
+        
+        <br><br><br><br>
+        
+        <input type="checkbox" name="freeDelivery">
+        <label name="freeDelivery-label">Free Delivery</label>
+        
+        <br><br><br><br>
+        
+        <input type="submit" name="submit" value="Save">
+
+    </form>
+    <footer>
+        <p>Copyright &#169; 2019</p>
+    </footer>
+    
+</body>
+    
+</html>
