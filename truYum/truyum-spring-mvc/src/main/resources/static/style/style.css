@@ -1,0 +1,151 @@
+*{
+    overflow: hidden;
+}
+html,body{
+    margin: 0px;
+    font-family: Arial, Helvetica sans-serif;
+}
+header{
+    background-color: #305496;
+    height: 60px;
+    width: 100%;
+}
+header h1{
+    color: #ffffff;
+    font-weight: 100;
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 15px;
+    float: left;
+}
+img{
+    margin-left: 20px;
+    margin-top: 13px;
+    display: inline-block;
+    float:left; 
+}
+nav {
+    float: right;
+    margin-right: 180px;
+    margin-top: 25px;
+
+}
+nav a{
+    font-weight: 100;
+    color: #ffffff;
+    padding-left: 70px;
+}
+
+.page-title{
+    font-weight: 100;
+    margin-top: 75px;
+    margin-left: 150px;
+}
+table{
+    margin-left: 150px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.first-column{
+        text-align: left;
+        padding-right: 100px;
+}
+.price-column{
+    text-align: right;
+}
+td,th{
+    padding-right: 75px;
+    padding-top: 10px;
+    width:auto;
+}
+
+footer{
+    background-color: #bebebe;
+    height: 60px;
+    bottom:0px;
+    position: absolute;
+    width: 100%;
+}
+footer p{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+#menuItemForm{
+    margin-left: 150px;
+}
+.second-row{
+    margin-right: 193px;
+}
+[name="title"]{
+    width: 1025px;
+}
+[name="price"]{
+        width: 75px;
+    text-align: right;
+}
+[name="inStock-label"]{
+        margin-left: 215px;
+}
+[name="dateOfLaunch-label"]{
+        margin-left: 236px;
+}
+[name="category-label"]{
+        margin-left: 252px;
+}
+[name="freeDelivery"]{
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: middle;
+}
+[name="freeDelivery-label"]{
+    vertical-align: middle;
+}
+[name="submit"]{
+    background-color: #305496;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    height: 70px;
+    width: 200px;
+}
+form label{
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #595978;
+}
+.status-message{
+    font-weight: bold;
+    color: #37B957;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.error-message{
+    font-weight: bold;
+    color: #ff0000;
+    margin-top: 50px;
+}
+#date-error{
+	left:720px;
+	margin-top:0;
+	position:fixed;
+}
+#customer-message{
+    margin-left: 500px;
+}
+#cart-message{
+    margin-left: 350px;
+}
+.cart-foot{
+    font-weight: bold;
+}
+strong{
+    float: left;
+    color: #848180;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+strong a{
+    color: #0873C0;
+}
