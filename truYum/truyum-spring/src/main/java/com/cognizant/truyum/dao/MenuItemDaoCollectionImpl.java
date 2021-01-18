@@ -23,11 +23,9 @@ public class MenuItemDaoCollectionImpl implements MenuItemDao {
 
 	public void setMenuItemList(List<MenuItem> menuItemList) {
 		this.menuItemList = menuItemList;
-		System.out.println(menuItemList);
 	}
 
 	public MenuItemDaoCollectionImpl() {
-		System.out.println("hi");
 
 	}
 
